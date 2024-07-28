@@ -1,0 +1,126 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--background-default);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* VARIABLES */
+
+.H1 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.H2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.H3 {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.headline {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-headline);
+}
+
+.paragraph {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--text-secondary);
+}
+
+.subtitle {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.blue {
+  color: var(--accent-blue);
+}
+
+.pink {
+  color: var(--accent-pink);
+}
+
+.purple {
+  color: var(--accent-purple);
+}
+
+.orange {
+  color: var(--accent-orange);
+}
+
+/* OTHERS */
+
+.description {
+  padding: 4px 0 4px;
+  gap: 24px;
+}
+
+.content {
+  gap: 64px;
+}
+
+.title-list {
+  gap: 8px;
+}
+
+.title {
+  gap: 2px;
+}
+
+.list {
+  gap: 48px;
+}
+
+.card-travel {
+  gap: 20px;
+}
+
+.content-card {
+  gap: 4px;
+}
+
+.creditos {
+  margin-bottom: 48px;
+  justify-content: center;
+  gap: 4px;
+}
